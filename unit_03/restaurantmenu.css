@@ -34,8 +34,8 @@ li a {
 
 
 
-h1 {
-
+h1 { 
+font-size: 50px;
     margin-top: 15px;
     margin-left: 10px;
     font-family: 'Lobster', cursive;
