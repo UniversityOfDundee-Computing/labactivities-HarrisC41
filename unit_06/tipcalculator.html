@@ -39,11 +39,11 @@
 
 <h3>
 
-      <button id="5" type="button" class="btn btn-dark">5%</button>
-      <button id="10" type="button" class="btn btn-dark">10%</button>
-      <button id="25" type="button" class="btn btn-dark">25%</button>
+      <button onclick="fivemult" id="5" type="button" class="btn btn-dark">5%</button>
+      <button onclick="tenmult" id="10" type="button" class="btn btn-dark">10%</button>
+      <button onclick="twentyfivemult" id="25" type="button" class="btn btn-dark">25%</button>
       <div>
-      <button id="2+10" type="button" class="btn btn-dark">Largest from 25% or £2+10% </button>
+      <button onclick="twoplustenmult" id="2+10" type="button" class="btn btn-dark">Largest from 25% or £2+10% </button>
     </div>
 </h3>
 
@@ -53,3 +53,19 @@
 <h2 id = "tip">£XX.XX</h2>
 </body>
       
+
+<!--
+document.getElementById("billamount").addEventListener("text", billamount);
+document.getElementById("5").addEventListener("click", 5);
+document.getElementById("10").addEventListener("click", 10);
+document.getElementById("25").addEventListener("click", 25);
+document.getElementById("2+10").addEventListener("click", 2+10);
+
+
+
+
+function billamount() {
+    document.getElementById('tip').value = 'billamount';
+  }
+
+  if (billamount = true )
